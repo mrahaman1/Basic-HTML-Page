@@ -99,8 +99,10 @@ pre{
   </div>
        
   <h4>How does this work?</h4>
-  <p>.If any child of n is solvable, then n is solvable.</p>
-  <p>.If no child of n is solvable, then n is not solvable.</p>
+  <ul>    
+  <li>If any child of n is solvable, then n is solvable.</li>
+  <li>If no child of n is solvable, then n is not solvable.</li>
+  </ul>
   <br>
   <p>Hence, to decide whether any non-leaf node n is solvable (part of a path to a goal node), all you have to do is test whether any child of n is solvable. This is done recursively, on each child of n. In the above code, this is done by the lines</p>
 
